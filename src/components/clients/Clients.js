@@ -9,15 +9,16 @@ export default function Clients() {
             <div
               className="card m-4"
               style={{ height: "200px" }}
-              style={{ height: "200px" }}
+             
             >
               <a href="https://www.iare.ac.in/?q=NIRF" target="_blank">
-                <img
-                  alt="IARE NIRF"
-                  src="/images/bhel.jpg"
-                  typeof="foaf:Image"
-                  style={{ height: "100px" }}
-                />
+              
+                  <img
+              src={process.env.PUBLIC_URL + "/images/bhel.jpg"}
+              className="d-block w-100"
+              style={{ height: "100px" }}
+              alt="IARE NIRF"
+            />
               </a>
               <div className="card-body">
                 <h5 className="card-title">Bharat Heavy Electrical Limited </h5>
@@ -29,7 +30,7 @@ export default function Clients() {
               <a href="https://www.iare.ac.in/?q=NIRF" target="_blank">
                 <img
                   alt="IARE NIRF"
-                  src="/images/amd.jpg"
+                  src={process.env.PUBLIC_URL + "/images/amd.jpg"}
                   typeof="foaf:Image"
                   style={{ height: "100px" }}
                 />
@@ -46,7 +47,7 @@ export default function Clients() {
               <a href="?q=pages/ariia-ranking" target="_blank">
                 <img
                   alt="IARE ARIIA"
-                  src="/images/nmdc.jpg"
+                  src={process.env.PUBLIC_URL + "/images/nmdc.jpg"}
                   typeof="foaf:Image"
                   style={{ height: "100px" }}
                 />
@@ -64,7 +65,7 @@ export default function Clients() {
               <a href="?q=pages/top-ratings-iare" target="_blank">
                 <img
                   alt="Other Ranking"
-                  src="/images/manugur.jpg"
+                  src={process.env.PUBLIC_URL + "/images/manugur.jpg"}
                   typeof="foaf:Image"
                   style={{ height: "100px" }}
                 />
@@ -79,7 +80,7 @@ export default function Clients() {
               <a href="?q=pages/top-ratings-iare" target="_blank">
                 <img
                   alt="Other Ranking"
-                  src="/images/singareni.jpg"
+                  src={process.env.PUBLIC_URL + "/images/singareni.jpg"}
                   typeof="foaf:Image"
                   style={{ height: "100px" }}
                 />
@@ -94,7 +95,7 @@ export default function Clients() {
               <a href="?q=pages/top-ratings-iare" target="_blank">
                 <img
                   alt="Other Ranking"
-                  src="/images/scr.jpg"
+                  src={process.env.PUBLIC_URL + "/images/scr.jpg"}
                   typeof="foaf:Image"
                   style={{ height: "100px" }}
                 />
